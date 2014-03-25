@@ -14,7 +14,7 @@ __Work In Progress__: _May not work as a fully functioning Torrent Tracker_.
     source virtual/bin/activate
 
 
-## Installing Tornato
+## Installing Tornado
     
     [sudo] pip install tornado
 
