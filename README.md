@@ -15,8 +15,7 @@ __Work In Progress__: _May not work as a fully functioning Torrent Tracker_.
 
 
 ## Installing Tornato
-
-To install tornato, run in a virtual enviroment
+    
     [sudo] pip install tornado
 
 
@@ -51,3 +50,7 @@ or
 ## License
 
 MIT License. Refer COPYING for more info.
+
+## Note
+
+if you are inside a virtualenviroment, the sudo command is not necessary.
