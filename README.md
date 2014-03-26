@@ -10,7 +10,7 @@ __Work In Progress__: _May not work as a fully functioning Torrent Tracker_.
 ## Setting up a virtual enviroment
     virtualenv virtual
     
-## Activate the virtual enviroment
+## Activate the virtual environment
     source virtual/bin/activate
 
 
