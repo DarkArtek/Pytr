@@ -7,7 +7,7 @@ __Work In Progress__: _May not work as a fully functioning Torrent Tracker_.
 ## Installing virtualenv 
     [sudo] pip install virtualenv
 
-## Setting up a virtual enviroment
+## Setting up a virtual environment
     virtualenv virtual
     
 ## Activate the virtual environment
