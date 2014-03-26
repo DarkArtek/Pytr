@@ -1,0 +1,141 @@
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen"/>
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
+
+  <title>Pytr</title>
+  <meta name="description" content="">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1 class="title">Pytr</h1>
+    </header>
+    <div id="container">
+      <p class="tagline"></p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/DarkArtek/Pytr/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/DarkArtek/Pytr/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/DarkArtek/Pytr" class="code">View Pytr on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <h2>
+<a name="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>About</h2>
+
+<p>PytR is a  Tracker written in Python using non-blocking Tornado Web Server. It also features a nice and clean UI for showing Tracker statistics.</p>
+
+<p><strong>Work In Progress</strong>: <em>May not work as a fully functioning Torrent Tracker</em>.</p>
+
+<h2>
+<a name="installing-virtualenv" class="anchor" href="#installing-virtualenv"><span class="octicon octicon-link"></span></a>Installing virtualenv</h2>
+
+<pre><code>[sudo] pip install virtualenv
+</code></pre>
+
+<h2>
+<a name="setting-up-a-virtual-enviroment" class="anchor" href="#setting-up-a-virtual-enviroment"><span class="octicon octicon-link"></span></a>Setting up a virtual enviroment</h2>
+
+<pre><code>virtualenv virtual
+</code></pre>
+
+<h2>
+<a name="activate-the-virtual-enviroment" class="anchor" href="#activate-the-virtual-enviroment"><span class="octicon octicon-link"></span></a>Activate the virtual enviroment</h2>
+
+<pre><code>source virtual/bin/activate
+</code></pre>
+
+<h2>
+<a name="installing-tornado" class="anchor" href="#installing-tornado"><span class="octicon octicon-link"></span></a>Installing Tornado</h2>
+
+<pre><code>[sudo] pip install tornado
+</code></pre>
+
+<h2>
+<a name="installing-pytr" class="anchor" href="#installing-pytr"><span class="octicon octicon-link"></span></a>Installing Pytr</h2>
+
+<p>To install Pytr, run</p>
+
+<pre><code>sudo python setup.py install
+</code></pre>
+
+<h2>
+<a name="configuring-pytr" class="anchor" href="#configuring-pytr"><span class="octicon octicon-link"></span></a>Configuring Pytr</h2>
+
+<p>Edit <code>~/.pytr/config/pytr.conf</code> and change the values to your choice. The following options are available.</p>
+
+<ul>
+<li>
+<code>port</code>: Pytt will listen to this port</li>
+<li>
+<code>interval</code>: Interval in seconds that the client should wait between sending regular requests to the tracker.</li>
+<li>
+<code>min_interval</code>: Minimum announce interval. If present clients must not re-announce more frequently than this.</li>
+</ul><h2>
+<a name="running-pytr" class="anchor" href="#running-pytr"><span class="octicon octicon-link"></span></a>Running Pytr</h2>
+
+<p>To run Pytr, do</p>
+
+<pre><code>python tracker.py -b
+</code></pre>
+
+<p>or</p>
+
+<pre><code>pytr -d
+</code></pre>
+
+<ul>
+<li>
+<code>-p</code> or <code>--port</code> (optional): To specify port</li>
+<li>
+<code>-d</code> or <code>--debug</code> (optional): Enable debug mode</li>
+<li>
+<code>-b</code> or <code>--background</code> (optional): Run as a daemon process</li>
+</ul><h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>MIT License. Refer COPYING for more info.</p>
+
+<h2>
+<a name="note" class="anchor" href="#note"><span class="octicon octicon-link"></span></a>Note</h2>
+
+<p>if you are inside a virtualenviroment, the sudo command is not necessary.</p>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="owner">
+      <p><a href="https://github.com/DarkArtek" class="avatar"><img src="https://avatars1.githubusercontent.com/u/1131773?s=60" width="48" height="48"/></a> <a href="https://github.com/DarkArtek">DarkArtek</a> maintains <a href="https://github.com/DarkArtek/Pytr">Pytr</a></p>
+
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="http://pages.github.com/">GitHub Pages</a><br/>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/DarkArtek/Pytr/tarball/master" class="tar">tar</a><a href="https://github.com/DarkArtek/Pytr/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
+
+  
+</body>
+</html>
