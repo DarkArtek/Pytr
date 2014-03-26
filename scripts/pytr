@@ -1,0 +1,10 @@
+#! /bin/sh
+#
+# Script to run Pytr
+#
+# @author: DarkArtek <art3k@ahsubs.net>
+# Created on 17th March 2014
+# http://darkartek.github.io/Pytr
+
+# run Pytr as a daemon
+/usr/bin/python -m "pytr.tracker" $*
