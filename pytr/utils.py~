@@ -20,8 +20,8 @@ import httplib
 
 # Paths used by Pytr.
 CONFIG_PATH = os.path.expanduser('~/.pytr/config/pytt.conf')
-DB_PATH = os.path.expanduser('~/.pytr/db/pytr.db')
-LOG_PATH = os.path.expanduser('~/.pytr/log/pytr.log')
+DB_PATH = os.path.expanduser('~/.pytr/db/pytt.db')
+LOG_PATH = os.path.expanduser('~/.pytr/log/pytt.log')
 
 # Some global constants.
 PEER_INCREASE_LIMIT = 30
