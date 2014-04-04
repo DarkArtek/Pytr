@@ -19,7 +19,7 @@ import httplib
 
 
 # Paths used by Pytr.
-CONFIG_PATH = os.path.expanduser('~/.pytr/config/pytt.conf')
+CONFIG_PATH = os.path.expanduser('~/.pytr/config/pytr.conf')
 DB_PATH = os.path.expanduser('~/.pytr/db/pytr.db')
 LOG_PATH = os.path.expanduser('~/.pytr/log/pytr.log')
 
